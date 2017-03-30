@@ -1,0 +1,19 @@
+{
+  "name": "Mountio",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "d74g0n",
+  "contributors": [],
+  "dependencies": {
+    "express": "4.10.2",
+    "gamepad-api": "^1.0.1",
+    "phaser": "^2.6.2",
+    "socket.io": "1.2.0"
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+d74g0n's first phaser attempts
+-->
+<html>
+    <head>
+        <meta charset='utf-8' />
+        <meta name="viewport" content="width=device.width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+        <title>Mount.io</title>
+<!--        <script type="text/javascript" src="node_modules/gamepad-api/dist/gamepad-api.js"></script>-->
+        <script type="text/javascript" src="phaser.js"></script>
+        <script type="text/javascript" src="gamepad.js"></script>
+        <script type="text/javascript" src="p2.min.js"></script>
+<!--        <script type="text/javascript" src="node_modules/phaser/build/custom/phaser-arcade-physics.js"></script>-->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+ 
+        
+        <style>
+            #screenswap {
+                top: 0px;
+                margin: 0px;
+                padding: 0px;
+            }
+            body {
+                padding: 0px;
+                margin: 0px;
+                background: #6699ff;
+                background: #00ff00;
+            }
+            #gamepadPrompt {
+                position: absolute;
+                top:0px;
+                top:725px;
+                left: 1081px;
+                left: 0px;
+                background: #66ffff;
+            }
+            #gamepadDisplay {
+                position: absolute;
+                top:20px;
+                top:745px;
+                left: 1081px;
+                left: 0px;
+                background: #69ffff;
+                visibility: hidden;
+                   
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+        <div id="screenwrap">
+        <script src="main.js"></script>
+        </div>
+                <div id="gamepadPrompt"></div>
+                <div id="gamepadDisplay"></div>
+        <script src="gamepad.js"></script>
+        
+    </center>
+    </body>
+</html>
